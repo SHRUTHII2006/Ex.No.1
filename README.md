@@ -79,6 +79,9 @@ Generative AI differs from discriminative AI:
 ## 2. Generative AI Architectures
 Different architectures power Generative AI, each suited for specific tasks.
 
+<img width="1024" height="554" alt="image" src="https://github.com/user-attachments/assets/ea6a34db-9e3e-4dbf-bb39-f0a89052a9ae" />
+
+
 ### 2.1 Generative Adversarial Networks (GANs)  
 - Two networks: Generator + Discriminator in competition  
 - Generator creates synthetic data, Discriminator judges authenticity  
@@ -122,6 +125,9 @@ LLMs (e.g., GPT-3, GPT-4, PaLM) demonstrate that **performance improves predicta
 - **Data volume** (training corpus size)  
 - **Compute resources**  
 
+<img width="695" height="1024" alt="image" src="https://github.com/user-attachments/assets/29fa6d37-090a-4dbd-bed9-d1e2252f863e" />
+
+
 ### 4.1 Scaling Laws
 Kaplan et al. (OpenAI, 2020) established scaling laws:  
 - Larger models trained with more data → lower error rates  
@@ -139,11 +145,45 @@ Kaplan et al. (OpenAI, 2020) established scaling laws:
 ### 4.3 Key Impacts
 - **Improved reasoning**: Larger models solve more complex tasks  
 - **Better generalization**: Less task-specific fine-tuning needed  
-- **Emergent capabilities**: Translation, coding, logical reasoning at scale  
+- **Emergent capabilities**: Translation, coding, logical reasoning at scale
 
 ---
 
-## 5. Conclusion
+##  5. Large Language Models (LLMs) and How They Are Built
+
+### 🔸 What are LLMs?
+Large Language Models (LLMs) are advanced **Generative AI systems** that use deep learning (particularly the **Transformer architecture**) to understand, generate, and manipulate human language.  
+They are capable of:  
+- Conversational AI (e.g., ChatGPT)  
+- Text summarization and translation  
+- Code generation (e.g., GitHub Copilot)  
+- Reasoning and knowledge extraction  
+
+---
+
+### 🔸 Core Characteristics
+- **Scale:** Millions to trillions of parameters.  
+- **Generalization:** Can perform many tasks without explicit retraining.  
+- **Context understanding:** Use attention mechanisms to capture relationships between words.  
+- **Emergent capabilities:** Abilities like reasoning, coding, and logical problem-solving emerge only when models are scaled sufficiently.  
+
+---
+
+### 🔸 How LLMs are Built
+
+#### 1. Data Collection
+- Trained on **massive text corpora**: web pages, Wikipedia, books, research papers, code repositories.  
+- Data is **cleaned, deduplicated, and filtered** for quality.  
+
+#### 2. Tokenization
+- Text is broken into **tokens** (words, subwords, or characters).  
+- Example:  "Artificial Intelligence" → ["Artificial", "Intelli", "gence"]
+
+
+
+---
+
+## 6. Conclusion
 Generative AI and LLMs represent a **paradigm shift in AI** — moving from analysis to creativity.  
 - Foundational concepts show how machines can **generate new data**.  
 - Architectures like **GANs, VAEs, Diffusion Models, and Transformers** power applications.  
